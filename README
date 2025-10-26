@@ -1,30 +1,16 @@
+# 🎓 Student Score Prediction / Prédiction des Scores Étudiants
 
-# Student Score Prediction / Prédiction des Scores Étudiants
+## 🇫🇷 À propos
+Ce notebook Python permet de **prédire les scores d'examen des étudiants** à partir de différents facteurs de performance.  
+Il inclut :  
 
-## 🇫🇷 Description
+✨ **Prétraitement des données** : gestion des valeurs manquantes.  
+📊 **Visualisation exploratoire** : comprendre les relations entre variables.  
+🤖 **Modélisation** : entraînement et évaluation de modèles de régression linéaire et polynomiale.  
+⚖️ **Comparaison des modèles** : évaluation de la performance.  
 
-Ce notebook Python permet de prédire les scores d'examen des étudiants à partir de différents facteurs de performance.
-Il comprend :
+Deux versions sont testées :  
+1. Utilisation de **toutes les variables**.  
+2. Sélection des variables clés : `Hours_Studied`, `Sleep_Hours`, `Attendance`.  
 
-* Le prétraitement des données et le traitement des valeurs manquantes.
-* La visualisation exploratoire pour comprendre les relations entre variables.
-* L’entraînement et l’évaluation de modèles de régression linéaire et polynomiale.
-* La comparaison des performances des modèles.
-  Deux versions sont présentées : utilisation de toutes les variables et sélection de variables clés (`Hours_Studied`, `Sleep_Hours`, `Attendance`).
-
-**Outils utilisés :** Pandas, Matplotlib, Scikit-learn.
-
----
-
-## 🇬🇧 Description
-
-This Python notebook predicts student exam scores based on various performance factors.
-It includes:
-
-* Data preprocessing and handling of missing values.
-* Exploratory visualization to understand relationships between variables.
-* Training and evaluation of Linear and Polynomial Regression models.
-* Comparison of model performance.
-  Two versions are provided: using all features and using selected key features (`Hours_Studied`, `Sleep_Hours`, `Attendance`).
-
-**Tools used:** Pandas, Matplotlib, Scikit-learn.
+**Outils util**
